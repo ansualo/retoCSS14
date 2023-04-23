@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+.tabla{
+    width: 40em;
+    text-align: center;
+    border: 0.2em outset;
+}
+.header, .celda{
+    height: max-content;
+    border: 0.15em ridge white;
+}
+.header{
+    font-weight: bold;
+}
+.row{
+    display:inline-flex;  
+    background-color: rgb(255, 255, 143);
+}
+.celda{
+    width:19.8em;
+}
